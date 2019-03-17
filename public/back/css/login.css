@@ -1,0 +1,99 @@
+body {
+  background: url("../img/island_dark.jpg") no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.navbar {
+  background-color: #669db3bd;
+  padding: 0;
+}
+
+.navbar ul>.nav-item>a.nav-link {
+  display: block;
+  color: #e3f2fd;
+  padding: 20px 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.navbar ul>.nav-item>a.nav-link:hover {
+  background-color: #669db3bd;
+  color: #fff;
+}
+
+.fa-accusoft {
+  color: #fff;
+  font-size: 50px;
+}
+
+.bg-img {}
+
+.modal {
+  background: rgba(102, 157, 179, 0.2);
+}
+
+.close {
+  color: #e3f2fd;
+  opacity: 0.5;
+}
+
+.close:hover {
+  color: #fff !important;
+  opacity: 1;
+}
+
+.modal-content {
+  background: #669db3bd;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.modal-header>h5.modal-title {
+  text-align: center !important;
+  color: #e3f2fd;
+}
+
+label {
+  font-size: 18px;
+  color: #e3f2fd;
+}
+
+.form-group input.form-control {
+  padding-left: 35px;
+}
+
+.form-check-label {
+  font-size: 16px;
+}
+
+.fa-envelope,
+.fa-lock,
+.fa-check-double,
+.fa-neos {
+  position: relative;
+  left: 10px;
+  top: -30px;
+  color: #666;
+}
+
+.btn {
+  background-color: #669db3bd;
+  font-size: 18px;
+  color: #e3f2fd;
+  font-weight: bold;
+  transition: all 500ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: #e3f2fd;
+  color: #666;
+  border: 1px solid #666;
+}
+
+.forgot>a {
+  display: block;
+  font-size: 18px;
+  color: #e3f2fd;
+  text-align: center;
+}
